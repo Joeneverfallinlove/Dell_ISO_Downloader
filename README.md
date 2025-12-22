@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#usage-guide">Usage Guide</a> •
-  <a href="#compilation--build">Compilation & Build</a> •
-  <a href="#author">Author</a>
+  <a href="#-features">Features</a> •
+  <a href="#-usage-guide">Usage Guide</a> •
+  <a href="#-compilation--build">Compilation & Build</a> •
+  <a href="#-author">Author</a>
 </p>
 
 ---
