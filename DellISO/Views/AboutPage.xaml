@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="DellISO.Views.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="12">
+
+            <Image Source="ms-appx:///Assets/ps.png" 
+                   Width="128" 
+                   Height="128" 
+                   HorizontalAlignment="Center"
+                   Stretch="Uniform"/>
+
+            <TextBlock Text="Dell ISO Downloader" 
+                       Style="{StaticResource TitleTextBlockStyle}" 
+                       HorizontalAlignment="Center"
+                       FontWeight="Bold"/>
+
+            <TextBlock Text="Made By Littlenine Ennea" 
+                       FontSize="16" 
+                       HorizontalAlignment="Center" 
+                       Foreground="{ThemeResource AccentTextFillColorPrimaryBrush}"
+                       Opacity="0.8"/>
+
+            <HyperlinkButton NavigateUri="https://t.me/Littlenine" 
+                             HorizontalAlignment="Center"
+                             Margin="0,8,0,0">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Image Source="ms-appx:///Assets/telegram.png"
+                           Width="20"
+                           Height="20"
+                           Stretch="Uniform"
+                           VerticalAlignment="Center"/>
+
+                    <TextBlock Text="Telegram: t.me/@Littlenine" 
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+            </HyperlinkButton>
+
+        </StackPanel>
+    </Grid>
+</Page>

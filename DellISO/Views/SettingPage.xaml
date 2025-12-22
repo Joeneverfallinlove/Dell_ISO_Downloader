@@ -1,0 +1,55 @@
+<Page
+    x:Class="DellISO.Views.SettingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel Padding="20" Spacing="24">
+            <TextBlock Text="Download Settings" Style="{StaticResource TitleTextBlockStyle}"/>
+
+            <StackPanel Spacing="8">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="ISO Path" VerticalAlignment="Center" FontWeight="SemiBold"/>
+                    <Button Content="Choose Folder..." Padding="8,4" Command="{x:Bind ViewModel.PickIsoCommand}"/>
+                </StackPanel>
+                <TextBox Text="{x:Bind ViewModel.IsoPath, Mode=OneWay}" IsReadOnly="True" PlaceholderText="Path not selected"/>
+            </StackPanel>
+
+            <StackPanel Spacing="8">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="Drivers Path" VerticalAlignment="Center" FontWeight="SemiBold"/>
+                    <Button Content="Choose Folder..." Padding="8,4" Command="{x:Bind ViewModel.PickDriverCommand}"/>
+                </StackPanel>
+                <TextBox Text="{x:Bind ViewModel.DriverPath, Mode=OneWay}" IsReadOnly="True" PlaceholderText="Path not selected"/>
+            </StackPanel>
+
+            <StackPanel Spacing="8">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="WIM/RE Path" VerticalAlignment="Center" FontWeight="SemiBold"/>
+                    <Button Content="Choose Folder..." Padding="8,4" Command="{x:Bind ViewModel.PickWimCommand}"/>
+                </StackPanel>
+                <TextBox Text="{x:Bind ViewModel.WimPath, Mode=OneWay}" IsReadOnly="True" PlaceholderText="Path not selected"/>
+            </StackPanel>
+
+            <StackPanel Spacing="8">
+                <TextBlock Text="Aria2c Threads (Download Speed)" FontWeight="SemiBold"/>
+                <ComboBox ItemsSource="{x:Bind ViewModel.ThreadOptions}" SelectedIndex="{x:Bind ViewModel.SelectedThreads, Mode=TwoWay}" Width="200"/>
+                <TextBlock Text="Set to 'AUTO' to let the system decide." Style="{StaticResource CaptionTextBlockStyle}" Foreground="Gray"/>
+            </StackPanel>
+
+            <MenuFlyoutSeparator/>
+
+            <StackPanel Spacing="8">
+                <TextBlock Text="Troubleshooting" FontWeight="SemiBold"/>
+                <ToggleSwitch Header="Enable Verbose Logging (Aria2c Log)" 
+                              IsOn="{x:Bind ViewModel.IsVerboseLogging, Mode=TwoWay}"
+                              OnContent="On" OffContent="Off"/>
+                <TextBlock Text="Turn this on to see detailed download logs in the Log Window." Style="{StaticResource CaptionTextBlockStyle}" Foreground="Gray"/>
+            </StackPanel>
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>

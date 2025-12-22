@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DellISO (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "DellISO (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
