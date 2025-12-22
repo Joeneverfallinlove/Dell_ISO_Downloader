@@ -19,7 +19,7 @@
 
 ## 📖 Introduction
 
-**Dell ISO Downloader** is a lightweight, portable application designed to simplify the retrieval of system recovery media. By leveraging a valid **Dell Service Tag**, this tool interfaces directly with Dell's official content servers to fetch the exact Operating System ISOs, Driver Packs, and SOS/WIM recovery files tailored specifically for your device.
+**Dell ISO Downloader** is a lightweight, portable application designed to simplify the retrieval of system recovery media. By leveraging a valid **Dell Service Tag**, this tool interact directly with Dell's official content servers to fetch the exact Operating System ISOs, Driver Packs, and SOS/WIM recovery files tailored specifically for your device.
 
 Powered by **.NET 8** and the **Windows App SDK (WinUI 3)**, it features a built-in **Aria2** download engine to ensure maximum speed and reliability, all packaged into a clean, single-file executable.
 
