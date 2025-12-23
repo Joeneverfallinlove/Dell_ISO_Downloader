@@ -76,6 +76,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Content Update="Assets\github.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Update="Assets\telegram.png">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>

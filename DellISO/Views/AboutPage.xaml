@@ -8,40 +8,56 @@
     mc:Ignorable="d">
 
     <Grid>
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="12">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8">
 
             <Image Source="ms-appx:///Assets/ps.png" 
-                   Width="128" 
-                   Height="128" 
-                   HorizontalAlignment="Center"
-                   Stretch="Uniform"/>
-
+               Width="128" 
+               Height="128" 
+               HorizontalAlignment="Center"
+               Stretch="Uniform"
+               Margin="0,0,0,4"/>
             <TextBlock Text="Dell ISO Downloader" 
-                       Style="{StaticResource TitleTextBlockStyle}" 
-                       HorizontalAlignment="Center"
-                       FontWeight="Bold"/>
+                   Style="{StaticResource TitleTextBlockStyle}" 
+                   HorizontalAlignment="Center"
+                   FontWeight="Bold"/>
 
             <TextBlock Text="Made By Littlenine Ennea" 
-                       FontSize="16" 
-                       HorizontalAlignment="Center" 
-                       Foreground="{ThemeResource AccentTextFillColorPrimaryBrush}"
-                       Opacity="0.8"/>
+                   FontSize="16" 
+                   HorizontalAlignment="Center" 
+                   Foreground="{ThemeResource AccentTextFillColorPrimaryBrush}"
+                   Opacity="0.8"
+                   Margin="0,0,0,4"/>
 
             <HyperlinkButton NavigateUri="https://t.me/Littlenine" 
-                             HorizontalAlignment="Center"
-                             Margin="0,8,0,0">
-                <StackPanel Orientation="Horizontal" Spacing="8">
+                         HorizontalAlignment="Center"
+                         Padding="4">
+                <StackPanel Orientation="Horizontal" Spacing="6">
                     <Image Source="ms-appx:///Assets/telegram.png"
-                           Width="20"
-                           Height="20"
-                           Stretch="Uniform"
-                           VerticalAlignment="Center"/>
-
+                       Width="18"
+                       Height="18"
+                       Stretch="Uniform"
+                       VerticalAlignment="Center"/>
                     <TextBlock Text="Telegram: t.me/@Littlenine" 
-                               VerticalAlignment="Center"/>
+                           VerticalAlignment="Center"
+                           FontSize="14"/>
                 </StackPanel>
             </HyperlinkButton>
 
+            <HyperlinkButton NavigateUri="https://github.com/LittlenineEnnea/Dell_ISO_Downloader" 
+                         HorizontalAlignment="Center"
+                         Padding="4"
+                         Margin="0,-4,0,0">
+                <StackPanel Orientation="Horizontal" Spacing="6">
+                    <Image Source="ms-appx:///Assets/github.png"
+                       Width="18"
+                       Height="18"
+                       Stretch="Uniform" 
+                       VerticalAlignment="Center"/>
+                    <TextBlock Text="Github: Dell_ISO_Downloader" 
+                           VerticalAlignment="Center"
+                           FontSize="14"/>
+                </StackPanel>
+            </HyperlinkButton>
         </StackPanel>
     </Grid>
 </Page>

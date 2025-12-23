@@ -219,7 +219,7 @@ namespace DellISO
 
             try
             {
-                AppendLog("Step 1: Getting Token...");
+                AppendLog("Step 1: Getting Token..."); //change auth from b to a
                 var request = new HttpRequestMessage(HttpMethod.Post, "https://apigtwb2c.us.dell.com/auth/oauth/v2/token");
                 request.Headers.Add("User-Agent", "RestSharp/106.12.0.0");
                 request.Headers.Add("Authorization", "Basic bDcyMGQzMzQ3ZDIwYTg0ZmExYmIzNmMzZWYwMWU3MTliODo3M2ZkZTNmNTU1ODU0YjBiOGZmODcwOTBlMWY4YjU1Yg==");
