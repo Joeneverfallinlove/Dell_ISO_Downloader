@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#usage-guide">Usage Guide</a> •
-  <a href="#compilation--build">Compilation & Build</a> •
-  <a href="#author">Author</a>
+  <a href="#-features">Features</a> •
+  <a href="#-usage-guide">Usage Guide</a> •
+  <a href="#-compilation--build">Compilation & Build</a> •
+  <a href="#-author">Author</a>
 </p>
 
 ---
@@ -87,8 +87,7 @@ Ensure your development environment is set up with the following:
 #### Step 1: Clone the Repository
 Clone the source code to your local machine:
 
-    git clone [https://github.com/YourUsername/Dell-ISO-Downloader.git](https://github.com/YourUsername/Dell-ISO-Downloader.git)
-    cd Dell-ISO-Downloader
+    git clone https://github.com/LittlenineEnnea/Dell_ISO_Downloader
 
 #### Step 2: Open Solution
 Launch Visual Studio 2026 and open the **`DellISO.slnx`** (or `.sln`) file found in the root directory.
