@@ -37,7 +37,7 @@
                        Height="18"
                        Stretch="Uniform"
                        VerticalAlignment="Center"/>
-                    <TextBlock Text="Telegram: t.me/@Littlenine" 
+                    <TextBlock Text="Telegram: @Littlenine" 
                            VerticalAlignment="Center"
                            FontSize="14"/>
                 </StackPanel>
