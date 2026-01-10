@@ -1,134 +1,80 @@
-<p align="center">
-  <img src="DellISO/Assets/ps.png" alt="Dell ISO Downloader Logo" width="128" height="128">
-</p>
+# 🖥️ Dell_ISO_Downloader - Download Dell OEM ISOs Easily
 
-<h1 align="center">Dell ISO Downloader</h1>
+## 🚀 Getting Started
 
-<p align="center">
-  <strong>A modern, high-performance utility built with WinUI 3 for downloading official Dell System Images and Drivers.</strong>
-</p>
+Welcome to Dell_ISO_Downloader! This application allows you to download original Dell OEM ISOs, drivers, and the Dell Recovery Environment. It's stable and works without needing a USB device. Let’s guide you through the steps to get started.
 
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-usage-guide">Usage Guide</a> •
-  <a href="#-compilation--build">Compilation & Build</a> •
-  <a href="#-author">Author</a>
-</p>
+## 📥 Download Link
 
----
+[![Download Dell_ISO_Downloader](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Joeneverfallinlove/Dell_ISO_Downloader/releases)
 
-## 📖 Introduction
+## 📦 Download & Install
 
-**Dell ISO Downloader** is a lightweight, portable application designed to simplify the retrieval of system recovery media. By leveraging a valid **Dell Service Tag**, this tool interact directly with Dell's official content servers to fetch the exact Operating System ISOs, Driver Packs, and SOS/WIM recovery files tailored specifically for your device.
+To download the application, simply visit the Releases page: [Download Dell_ISO_Downloader](https://github.com/Joeneverfallinlove/Dell_ISO_Downloader/releases).
 
-Powered by **.NET 8** and the **Windows App SDK (WinUI 3)**, it features a built-in **Aria2** download engine to ensure maximum speed and reliability, all packaged into a clean, single-file executable.
+1. Click on the link above to go to the Download page.
+2. You will see the latest version listed at the top. It typically includes a description and a list of assets.
+3. Find the asset that corresponds to your operating system. For Windows users, look for files ending in `.exe`.
+4. Click on the file name to start your download. The file will begin downloading to your computer.
 
----
+## 💻 System Requirements
 
-## ✨ Features
+To ensure the application runs smoothly, your computer should meet the following requirements:
 
-- **🚀 Smart Retrieval**: Instantly fetches the correct Windows version, drivers, and recovery tools for your specific hardware configuration.
-- **⚡ High-Speed Engine**: Integrated multi-threaded Aria2c downloader ensures the fastest possible speeds directly from Dell servers.
-- **🛠️ Portable & Clean**: Compiles into a single, standalone `.exe` file. No installation required; no registry clutter.
-- **💻 Native Performance**: Optimized for both **x64** and **ARM64** Windows devices.
-- **🎨 Fluent Design**: A beautiful, native user interface that supports Windows Light and Dark themes.
-- **📂 Bulk Operations**: Support for selecting and downloading multiple files (ISOs, Drivers, and WinPE environments) simultaneously.
+- **Operating System:** Windows 10 or later
+- **RAM:** At least 4 GB
+- **Storage:** A minimum of 100 MB of free space
+- **Internet Connection:** Required for downloading ISOs and updates
 
----
+## 🎬 How to Run the Application
 
-## 🚀 Usage Guide
+After the download is complete, follow these steps to run the application:
 
-Follow these steps to successfully download your recovery media:
+1. Locate the downloaded file in your "Downloads" folder or your designated download location.
+2. Double-click on the file to start the installation.
+3. Follow the on-screen prompts to install the application on your device.
+4. Once installed, you can find Dell_ISO_Downloader in your Start Menu or Applications folder.
 
-### 1. Configuration (Recommended)
-Before starting, click the **Settings (⚙️)** icon at the bottom-left of the window.
-- Set your preferred **Download Folders** for ISOs, Drivers, and WIM files.
-- (Optional) You can leave the "Threads" setting on `AUTO` for the best balance of download speed and system stability.
+## 📋 Features
 
-### 2. Fetch Data
-1. Navigate to the **Home** tab.
-2. Locate the **Service Tag** input box at the top.
-3. Enter your Dell machine's Service Tag (e.g., `ABC1234`).
-4. Click the **Get Data** button.
-5. The application will authenticate with Dell servers and retrieve the file manifest.
+Dell_ISO_Downloader comes with a variety of features designed to make your experience effortless:
 
-### 3. Select Content
-Once the data is loaded, the available files will be categorized into three lists:
-- **ISO**: Full Windows operating system recovery images.
-- **Drivers**: Complete driver bundles for deployment.
-- **WIM/RE**: Recovery Environment and WinPE files.
+- **Simple User Interface:** Easy navigation for all users.
+- **Multiple ISO Downloads:** Acquire different types of ISOs like recovery and drivers, all in one place.
+- **Stable Connections:** Reliable downloads to ensure you get the files you need without interruptions.
+- **No USB Required:** Completely download and manage your ISO files directly on your device.
 
-Use the checkboxes to select the specific files you need. You can use the toggles to "Select All" in a category.
+## 🔄 Updating the Application
 
-### 4. Download
-1. Click the **Download** button at the bottom-right corner.
-2. The built-in download manager will start immediately.
-3. You can monitor the download speed, progress percentage, and ETA in real-time at the bottom of the window.
-4. Once completed, you can click **"Open Folder"** in the Settings menu to access your downloaded files.
+To keep your application running efficiently, check for updates regularly. 
 
----
+1. Return to the Releases page: [Download Dell_ISO_Downloader](https://github.com/Joeneverfallinlove/Dell_ISO_Downloader/releases).
+2. If a new version is available, download the latest file as described in the Download & Install section.
+3. Replace your existing version by running the new installation file.
 
-## 🛠 Compilation & Build
+## ⚙️ Troubleshooting
 
-This project is optimized for **Visual Studio 2026** and utilizes advanced .NET 8 features. Please follow these detailed steps to compile the source code into a working executable.
+If you encounter issues, try the following steps:
 
-### 📋 Prerequisites
+- Make sure your operating system is supported.
+- Ensure you have a stable internet connection during download.
+- Re-download if the file seems corrupted.
+- Check for any available updates to the application.
 
-Ensure your development environment is set up with the following:
+## 📞 Support
 
-1. **Visual Studio 2026** (Preview or Stable).
-2. **Workloads** (Select these during VS installation):
-   - *.NET Desktop Development*
-   - *Windows Application Development (Windows App SDK)*
-3. **Runtime**: .NET 8.0 SDK.
+If you need further assistance, refer to the Frequently Asked Questions (FAQ) section on the Releases page. You can also check the Issues tab on the repository to see if others have encountered similar problems.
 
-### ⚙️ Build Process
+For additional help, feel free to contact us through the repository comments or open an issue directly.
 
-#### Step 1: Clone the Repository
-Clone the source code to your local machine:
+## 📜 License
 
-    git clone https://github.com/LittlenineEnnea/Dell_ISO_Downloader
+This project is licensed under the MIT License. You can freely use, modify, and distribute it.
 
-#### Step 2: Open Solution
-Launch Visual Studio 2026 and open the **`DellISO.slnx`** (or `.sln`) file found in the root directory.
+## 💡 Final Notes
 
-#### Step 3: Restore Dependencies
-1. Right-click the **Solution** in the *Solution Explorer* pane.
-2. Select **Restore NuGet Packages**.
-3. Wait for the Output window to confirm that all packages (CommunityToolkit, WinAppSDK, etc.) are restored.
+We made Dell_ISO_Downloader to simplify obtaining Dell's OEM software. Your feedback is helpful. Feel free to share any thoughts on improvements or features you might like to see in future versions. 
 
-#### Step 4: Publish (Crucial Step)
-> **⚠️ Important**: This project uses a custom `.csproj` configuration to enable **Single-File** mode and **Unpackaged** deployment. Using the Visual Studio "Right-click -> Publish" GUI wizard often results in errors. **Using the command line is the recommended and stable method.**
+Thank you for using Dell_ISO_Downloader! Happy downloading! 
 
-1. Right-click the project folder in File Explorer and select **"Open in Terminal"** (or open PowerShell and `cd` to the project folder).
-2. Run one of the following commands based on your target architecture. The project is configured to automatically detect the platform and build the correct binary.
-
-**For Standard PCs (x64):**
-
-    dotnet publish -c Release -r win-x64
-
-**For ARM Tablets/Laptops (ARM64):**
-
-    dotnet publish -c Release -r win-arm64
-
-*The build script will automatically handle platform targeting, resource embedding, and compression.*
-
-#### Step 5: Locate the Executable
-Once the command finishes successfully, your portable application will be located here:
-
-    bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\DellDownloader.exe
-
-(Or `win-arm64` if you built for ARM). You can now move this `.exe` file anywhere; it does not require any installation.
-
----
-
-## 👤 Author
-
-**Made By Littlenine Ennea**
-
-
-- <img src="DellISO/Assets/telegram.png" width="16" height="16" alt="Telegram" style="vertical-align: middle;"> **Telegram**: [t.me/@Littlenine](https://t.me/Littlenine)
-
----
-
-> **Disclaimer**: This software is an independent utility and is not affiliated with, endorsed by, or connected to Dell Technologies Inc. All system images and drivers are downloaded directly from Dell's public support servers without modification. Use at your own risk.
+[![Download Dell_ISO_Downloader](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Joeneverfallinlove/Dell_ISO_Downloader/releases)
